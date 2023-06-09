@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntados - Tecsup</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrousel.css">
+    <link rel="stylesheet" href="css/list.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="menu" container>
+            <img class="menu__logo" src="img/logo.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="svg/menu.svg" class="menu-icon" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Aun falta por poner</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <div id="container--spin">
+            <canvas id="canvas" width="500" height="500"></canvas>
+            <div id="button-container">
+                <input type="button" value="Hacer girar" id="spin">
+            </div>
+        </div>
+
+        <script src="js/ruleta.js"></script>
+
+        <footer class=" footer__container ">
+            <div class="footer__content ">
+            </div>
+            <div class="footer__websites ">
+                <div class="footer__websites__content ">
+                    <div class="footer__navSection ">
+                        <span class="footer__nav-title-text "><img src="svg/facebook.svg " alt=" " class="social--svg ">
+                    <span class="footer_nav-title-label ">FACEBOOK</span>
+                        </span>
+                    </div>
+                    <div class="footer__navSection ">
+                        <span class="footer__nav-title-text "><img src="svg/instagram.svg " alt=" "  class="social--svg ">
+                    <span class="footer_nav-title-label ">INSTAGRAM</span>
+                        </span>
+                    </div>
+
+                    <div class="footer__navSection ">
+                        <span class="footer__nav-title-text "><img src="svg/tiktok.svg " alt=" "  class="social--svg ">
+                    <span class="footer_nav-title-label ">TIKTOK</span>
+                        </span>
+                    </div>
+                    <div class="footer__navSection ">
+                        <span class="footer__nav-title-text "><img src="svg/twitter.svg " alt=" "  class="social--svg ">
+                    <span class="footer_nav-title-label ">TWITTER</span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__copyright ">
+                <p>©2021- 2023</p>
+                <h2>Tecsup</h2>
+                <p>- Todos los Derechos Reservados.</p>
+            </div>
+        </footer>
+
+
+        <style>
+            #spin {
+                background-color: #ff4f4f;
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+            
+            #spin:hover {
+                background-color: #ff3333;
+            }
+            
+            #container--spin {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            canvas {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            #button-container {
+                margin-top: 20px;
+                text-align: center;
+            }
+        </style>
+
+    </body>
+
+</html>
